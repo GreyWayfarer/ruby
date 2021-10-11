@@ -12,7 +12,7 @@ class Calculate
   end
 
   def f_to_k(temp)
-    ((temp - 32) / 1.8 + 273.15).round(2)
+    (((temp - 32) / 1.8) + 273.15).round(2)
   end
 
   def f_to_c(temp)
@@ -20,7 +20,7 @@ class Calculate
   end
 
   def k_to_f(temp)
-    ((temp - 273.15) * 1.8 + 32).round(2)
+    (((temp - 273.15) * 1.8) + 32).round(2)
   end
 
   def k_to_c(temp)
